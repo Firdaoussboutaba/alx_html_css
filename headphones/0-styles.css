@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+#home {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRy9xHJekz8c9RXdYX483H6HXFppKkehC_83V_v9SCN_hSwvFq);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+ 
+
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0.2em 0;
+}
+
+.hero h3 {
+    font-size: 1.5em;
+    margin: 0.2em 0;
+}
+
+.hero button {
+    padding: 1em 2em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff6565;
+    border: none;
+    cursor: pointer;
+    margin: 0.5em 0;
+    border-radius: 22px;
+}
+
+.hero button:hover {
+    background-color: #ddd;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0.5em 0;
+    text-align: center;
+
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+
+
+
+
+#what-we-do {
+    background-color: #fff;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+#what-we-do h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#what-we-do .description {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    color: black;
+}
+
+
+
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    text-align: center;
+    width: 20%; 
+    min-width: 150px; 
+}
+
+.service i {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.service p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+#our-results {
+    background-image: url(https://www.rockantenne.at/media/cache/3/version/2383/modern-rock-quiz_1030x400-v1.jpg/fd48a1d2ef3635c36857729e104076db.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 3em 1em;
+    text-align: center;
+    color:white;
+}
+
+#our-results h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#our-results h3 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.result-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.result-images img {
+    margin: 0.5em;
+    width: 20%; 
+    min-width: 150px; 
+    max-width: 200px; 
+}
+
+
+
+
+
+
+#contact-us {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact-us input,
+#contact-us textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact-us textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#contact-us button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6565;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 22px;
+
+}
+
+#contact-us button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+footer {
+    background-color: #071629;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer-logo {
+    max-width: 100px;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+}
+
+
